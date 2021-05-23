@@ -1,0 +1,16 @@
+.menu {
+  color: rgba(0, 255, 13, 0.658);
+  font-size: large;
+  font-weight: bolder;
+}
+
+.parrafo {
+  color: rgb(157, 65, 243);
+  font-style: italic;
+}
+
+.tituloparrafo {
+  color: indigo;
+  font-weight: bolder;
+  font-size: larger;
+}

@@ -1,0 +1,16 @@
+img {
+  float: right;
+}
+div {
+  float: right;
+  padding: 20px;
+}
+.cajal {
+  background-color: red;
+}
+.caja2 {
+  background-color: yellow;
+}
+.caja3 {
+  background-color: green;
+}
