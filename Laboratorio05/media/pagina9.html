@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase - parte 2</title>
+</head>
+<body>
+    <h1>Registro de usuarios</h1>
+    <hr>
+    <form action="">
+    <label for="txtCor">Correo:</label>
+    <input type="text" name="txtCor" id="txtCor" placeholder="Ingrese su correo">
+    <br>
+    <label for="txtCon">Contraseña:</label>
+    <input type="text" name="txtCon" id="txtCon" placeholder="Ingrese su contraseña">
+    <br>
+    <input type="button" value="Registrar" id="btnRegistrar" name="btnRegistrar">
+    <input type="reset" value="limpiar" id="btnLimpiar" name="btnLimpiar">
+    </form>
+    <br>
+    <hr>
+    <li><a href="/Laboratorio05/media/index.html">Regresar</a></li>
+    <script src="js/bibliotecaregistrousuario.js" type="text/javascript"></script>
+
+<!-- Bibliotecas de Firebase -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCKquFa_0-QzQfBaCkbnVrGBlu79Cs3L4U",
+    authDomain: "proyectoweb-96d09.firebaseapp.com",
+    projectId: "proyectoweb-96d09",
+    storageBucket: "proyectoweb-96d09.appspot.com",
+    messagingSenderId: "202758903405",
+    appId: "1:202758903405:web:fd5639e7c39014fd3e9164",
+    measurementId: "G-QYT00RZP1Q"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  const auth=firebase.auth();
+  
+</script>
+</body>
+</html>
